@@ -38,7 +38,6 @@ jobs:
           REGISTRY: ghcr.io/kubedb
           DOCKER_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
           USERNAME: 1gtm
-          APPSCODE_ENV: prod
         run: |
           docker login ghcr.io --username ${USERNAME} --password ${DOCKER_TOKEN}
           make release

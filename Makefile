@@ -144,3 +144,6 @@ docker-release:
 
 .PHONY: version build deps go-test clean docker docker-arm docker-platform docker-amd \
         podman-build podman-push podman-release
+
+
+# Testing build

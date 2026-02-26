@@ -1,5 +1,6 @@
 name: CI
 
+# Added release.yml in ci.yml for testing image build
 on:
   pull_request:
     branches:

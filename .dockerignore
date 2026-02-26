@@ -1,6 +1,5 @@
 oraclelinux
 alpline
-.*
 tests
 *-example.toml
 .golangci.yml

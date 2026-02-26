@@ -129,7 +129,7 @@ podman-release: podman-build podman-push
 
 
 .PHONY: release
-docker-release:
+release:
 	@echo "Building and pushing multi-arch image ($(DOCKER_PLATFORMS))..."
 	DOCKER_CLI_EXPERIMENTAL=enabled docker buildx build \
 		--platform $(DOCKER_PLATFORMS) \
